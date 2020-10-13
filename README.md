@@ -19,7 +19,8 @@ My approach for solving balancing issues was using SMOTE for upsampling the mino
 
 ##### Results
 
-Talking about the results, the models achieved between 86% and 96% of accuracy. Some note were taken:
+Talking about the results, the models achieved between 86% and 96% of accuracy. 
+Some notes were taken:
 
 * Decision Tree had the worst accuracy
 * Random Forest had a poor performance due to the curse of dimensionality. It always predicts only one class
