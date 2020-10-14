@@ -9,9 +9,9 @@ This dataset was collect as a part of a Master's degree thesis in physiotherapy 
 
 The attributes of the dataset are written in portuguese and the label is the feature "<i>Você sofreu uma nova lesão do ligamento cruzado anterior?</i>" (<i>Have you suffered a new injury on knee ligament?</i>)
 
-##### Regularization
+##### PCA
 
-I choose to avoid using regularization due to the low number of elements.
+The PCA was used to decrease the number of features in the model. My approach was to reduce the number of features by 28 considering those that had a high correlation.
 
 ##### Imbalanced data
 
